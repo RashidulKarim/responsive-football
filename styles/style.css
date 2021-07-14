@@ -1,0 +1,133 @@
+/* common style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.button {
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  border: none;
+  border-radius: 10px;
+}
+.button a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.horizontal-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+/* Header section */
+.header-container {
+  width: 1440px;
+  background-color: #2d25a0;
+}
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 80px 150px;
+}
+.banner-title {
+  width: 485px;
+  height: 230px;
+}
+.title {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+}
+.banner-image {
+  width: 556px;
+  height: 438px;
+}
+.banner-image img {
+  width: 100%;
+}
+
+/* Player Section */
+.container {
+  width: 1050px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 45px;
+  grid-column-gap: 30px;
+}
+.player {
+  height: 456px;
+  width: 330px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+}
+.player-image img {
+  width: 100%;
+}
+.player-name {
+  margin: 5px auto;
+}
+.player-name {
+  font-size: 28px;
+  font-weight: 700;
+}
+.player-details {
+  margin-top: 10px;
+  color: #6c6c6c;
+  font: size 16px;
+}
+
+/* copa highlight */
+
+.highlight {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 150px 0px;
+}
+.highlight-info {
+  width: 469px;
+  height: 309px;
+  margin-left: 50px;
+}
+.highlight-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.highlight-details {
+  font-size: 16px;
+  color: #6c6c6c;
+  padding-bottom: 20px;
+}
+.highlight-image {
+  width: 567px;
+  height: 427px;
+}
+.highlight-image img {
+  width: 100%;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  margin-bottom: 60px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+.fab {
+  font-size: 35px;
+  margin: 15px;
+}
+footer p{
+  font-size: 18px;
