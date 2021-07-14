@@ -1,4 +1,6 @@
-/* common style */
+/*-------------------- 
+    common style 
+  --------------------*/
 * {
   padding: 0;
   margin: 0;
@@ -48,6 +50,10 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 80px 150px;
+  transition: transform 2s;
+}
+.banner:hover {
+  transform: scale(1.1) skew(-5deg);
 }
 .banner-title {
   width: 485px;
@@ -102,6 +108,7 @@ body {
 /* --------------------------
          teams section 
   --------------------------*/
+
 .teams {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -190,7 +197,9 @@ footer p {
   font-size: 18px;
 }
 
-/* Media Queries */
+/* ------------------------
+      Media Queries 
+  ------------------------*/
 
 @media only screen and (max-width: 688px) {
   .header-container {
@@ -262,7 +271,7 @@ footer p {
     padding: 0px 20px 20px;
   }
   .highlight-title {
-    font-size: 28px;
+    font-size: 38px;
     font-weight: 700;
   }
   .highlight-image {
@@ -271,5 +280,8 @@ footer p {
   }
   footer img {
     width: 65%;
+  }
+  .center {
+    margin: 0px auto;
   }
 }
